@@ -25,8 +25,10 @@ AWS se encarga de proteger la infraestructura global que ejecuta todos los servi
 
 Como cliente de AWS, **usted es responsable de proteger los datos, los sistemas operativos, las redes, las plataformas y otros recursos que cree en la nube de AWS.** También es responsable de proteger la confidencialidad, la integridad y la disponibilidad de sus datos y de cumplir cualquier requisito empresarial o de regulación específico para sus cargas de trabajo.
 
-AWS agrupa sus centros de datos fisicos en unidades logicas (Zonas de disponibilidad)  ahí los centros estan inerconectados de forma redundante dedicada  con baja latencia, estas se agrupan en Regiones que contienen dos o más ZdD fisicamente separadas y aisladas entre si  en caso de que una falle.
+# Infrestructura global 
 
-![Tux, the Linux mascot](/images/regionzonas.PNG)
+Se agrupan sus centros de datos fisicos en unidades logicas Zonas de disponibilidad, estos CdD esta intercomunicados de forma redundadnte, local y con baja latencia.
 
-Algunas regiones no tiene algunos servicios, se debe de decidir cual utilizar con base en la cercania del usuario final y los requicitos de legislación, **Los precios varian con base en las normas de los paises, los gastos operativos y de capital, como la electricidad etc.**
+Una regioón de AWS tiene dos o mas de estos centros de datos 
+
+![Zonas de disponibilidad y Regiones ](/assets/images/tux.png)

@@ -1,4 +1,6 @@
 # Amazon Security Fundamentals 
+## Resumen de curso AWS Security Fundamentals (Second Edition)
+### [url del curso](https://www.aws.training/)
 
 - Control 
 - Auditoria 

@@ -27,6 +27,6 @@ Como cliente de AWS, **usted es responsable de proteger los datos, los sistemas 
 
 AWS agrupa sus centros de datos fisicos en unidades logicas (Zonas de disponibilidad)  ahí los centros estan inerconectados de forma redundante dedicada  con baja latencia, estas se agrupan en Regiones que contienen dos o más ZdD fisicamente separadas y aisladas entre si  en caso de que una falle.
 
-![Tux, the Linux mascot](/images/regionzonas.PNG)
+![ZdD y Regiones](./images/regionzonas.PNG)
 
 Algunas regiones no tiene algunos servicios, se debe de decidir cual utilizar con base en la cercania del usuario final y los requicitos de legislación, **Los precios varian con base en las normas de los paises, los gastos operativos y de capital, como la electricidad etc.**
